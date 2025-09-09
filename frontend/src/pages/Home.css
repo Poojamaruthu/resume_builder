@@ -1,0 +1,47 @@
+/* Hero section */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+  background: linear-gradient(135deg, #d2b3e8, #8246c7);
+  color: white;
+  padding: 20px;
+}
+
+/* Content box */
+.hero-content {
+  max-width: 600px;
+}
+
+/* Title */
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+/* Subtitle */
+.hero-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+  opacity: 0.9;
+}
+
+/* Get Started button */
+.get-started-btn {
+  padding: 12px 24px;
+  background: white;
+  color: #6a0dad;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.get-started-btn:hover {
+  background: #f2e6ff;
+}

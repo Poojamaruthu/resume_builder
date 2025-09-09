@@ -1,3 +1,9 @@
-*{
-  font: 100;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Push page content below the fixed navbar */
+.page-wrapper {
+  padding-top: 70px;  /* adjust based on navbar height */
 }
